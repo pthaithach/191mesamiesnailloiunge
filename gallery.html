@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>Mes Amies Nails & Beauty Lounges | Top Nails Salon in Eastvale Califonia 92880</title>
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!--====== Google Fonts ======-->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--====== Flaticon ======-->
+    <link rel="stylesheet" href="assets/css/flaticon.min.css">
+    <!--====== Font Awesome ======-->
+    <link rel="stylesheet" href="assets/css/font-awesome-5.9.0.min.css">
+    <!--====== Bootstrap ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap-4.5.3.min.css">
+    <!--====== Magnific Popup ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!--====== Nice Select ======-->
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <!--====== Animate ======-->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!--====== Slick ======-->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!--====== Main Style ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="./assets/css/custom-style.css">
+
+</head>
+
+<body>
+    <div class="page-wrapper">
+
+        <!-- Preloader -->
+        <div class="preloader"></div>
+
+        <!-- main header -->
+        <div id="header"></div>
+
+        <!-- Page Banner Start -->
+        <section class="page-banner text-white py-165 rpy-130" style="background-image: url(assets/images/banners/faq-banner.jpg);" pic_src="faq-banner" pic_bg>
+            <div class="container">
+                <div class="banner-inner text-center">
+                    <span class="bg-text">Gallery</span>
+                    <h1 class="page-title wow fadeInUp delay-0-2s">Gallery masonry</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb wow fadeInUp delay-0-4s">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active">Gallery</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- Page Banner End -->
+
+
+        <!-- Portfolio Section Start -->
+        <section class="portfolio-section pt-140 rpt-90 pb-120 rpb-80">
+            <div class="container">
+               <div class="section-title text-center mb-45">
+                    <span class="bg-text">Gallery</span>
+                    <span class="sub-title bgui-text-primary">Photo Gallery</span>
+                    <h2>Latest Working Photo</h2>
+                </div>
+                <!-- <ul class="portfolio-filter mb-70">
+                    <li data-filter="*" class="current">Show All</li>
+                    <li data-filter=".beauty">Beauty</li>
+                    <li data-filter=".massage">Massage</li>
+                    <li data-filter=".spa-foot">Spa & Foot</li>
+                    <li data-filter=".hair-colors">Hair Colors</li>
+                    <li data-filter=".treatments">Treatments</li>
+                </ul> -->
+                <div class="row portfolio-active" id="gallery_massony"></div>
+            </div>
+        </section>
+
+
+        
+        <!-- Portfolio Section End -->
+       
+       
+        <!-- Footer Area Start -->
+        <div id="footer"></div>
+        <!-- Footer Area End -->
+
+    </div>
+    <!--End pagewrapper-->
+
+    <!-- Scroll Top Button -->
+    <button class="scroll-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></button>
+
+
+    <!--====== Jquery ======-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!--====== Bootstrap ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--====== Appear Js ======-->
+    <script src="assets/js/appear.min.js"></script>
+    <!--====== Slick ======-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--====== Magnific Popup ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--====== Nice Select ======-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--====== Image Loader ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!--====== Skill bar ======-->
+    <script src="assets/js/skill.bars.jquery.min.js"></script>
+    <!--====== Isotope ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--  WOW Animation -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Custom script -->
+    <script src="assets/js/script.js"></script>
+
+    <script src="./scripts/components.js"></script>
+
+    <script>
+
+
+    
+    for( var i = 9; i > 0 ; i--){ 
+
+        let image
+        i < 10 ? image = "0" + i : image = i
+        var abc = `<div class="col-xl-4 col-lg-4 col-sm-6 item massage treatments">
+            <div class="portfolio-item wow fadeInUp delay-0-2s">
+                <img src="assets/images/projects/masonry2.jpg" alt="Protfolio" pic_src="`+image+`">
+                <div class="portfolio-content">
+                    <b><a href="#" data-booking>Book Now</a></b>
+                </div>
+            </div>
+        </div>`
+        $('#gallery_massony').append(abc)
+    } 
+    </script>
+</body>
+
+</html>

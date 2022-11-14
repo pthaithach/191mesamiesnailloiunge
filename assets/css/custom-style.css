@@ -1,0 +1,18 @@
+:root{
+	--primary: #ff5ea5;
+	--primary-light:#ffe4f0;
+	--primary-hover: #ed3d8b;
+	--secondary: #00becf;
+	--secondary-hover: #00a9b8;
+	--text-primary: #000000;
+	--text-primary-hover: #FFFFFF;
+	--text-secondary: #FFFFFF;
+	--text-secondary-hover: #000000;
+	--text-title: #000000;
+	--text-title-hover: #000000;
+}
+
+.bgui-primary{background: var(--primary)!important;}
+.bgui-primary-light{background: var(--primary-light);}
+.bgui-text-primary{color: var(--primary)!important;}
+.bgui-black{background: #000000!important;}
